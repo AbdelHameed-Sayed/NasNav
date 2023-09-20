@@ -1,0 +1,122 @@
+@import '../../utils/Variables.scss';
+
+.buttonContainer {
+  @include relativePosition();
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+.pure,
+.svg,
+.bordered,
+.custom {
+  font-weight: 500;
+  text-transform: capitalize;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.pure {
+  margin-right: 32px;
+  @include normalTextSize();
+}
+
+.svg {
+  margin-right: 16px;
+}
+
+.custom {
+  margin: $start;
+  padding: $start;
+}
+
+.bordered {
+  border: 0.96px $lightGray4-color solid;
+  border-radius: 9.59px;
+  padding: 13.43px 45.73px;
+  cursor: pointer;
+}
+
+.bordered2,
+.bordered3 {
+  border: 0.82px $lightGray4-color solid;
+  border-radius: 6.58px;
+  padding: 10.69px 13.15px;
+  background: none;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.bordered2 {
+  border: 0.82px $lightGray4-color solid;
+}
+
+.bordered3 {
+  border: 1.64px $secondary-color solid;
+}
+
+.borderedFill,
+.borderedFill2,
+.borderedFill3 {
+  background-color: $primary-color;
+  color: $white-color;
+  font-weight: 600;
+  cursor: pointer;
+  padding: $start;
+  border: none;
+  text-transform: uppercase;
+}
+
+.borderedFill {
+  font-size: 17px;
+  line-height: 25.5px;
+  border-radius: 12px;
+  width: 284px;
+  height: 50px;
+}
+
+.borderedFill2 {
+  font-size: 15.5px;
+  line-height: 15.5px;
+  width: 162.75px;
+  height: 39.71px;
+  border-radius: 5.81px;
+}
+
+.borderedFill3 {
+  @include normalTextSize();
+  width: 330px;
+  height: 48px;
+  border-radius: 6px;
+}
+
+.roundedWhite,
+.roundedBlack,
+.roundedBlue,
+.roundedYellow {
+  width: 28.73px;
+  height: 28.73px;
+  border-radius: $full;
+  outline: none;
+  border: none;
+  margin-right: 10.77px;
+  cursor: pointer;
+}
+
+.roundedWhite {
+  background-color: $white-color;
+  border: 0.72px $primary-color solid;
+}
+.roundedBlack {
+  background-color: $primary-color;
+}
+.roundedBlue {
+  background-color: $blue-color;
+}
+.roundedYellow {
+  background-color: $yellow-color;
+}

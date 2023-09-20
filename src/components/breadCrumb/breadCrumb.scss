@@ -1,0 +1,21 @@
+@import '../../utils/Variables.scss';
+
+.breadcrumbContainer {
+  background-color: $primary-color;
+  width: $full;
+  height: 82px;
+  @include itemsCenterFlex();
+  margin-bottom: 92px;
+}
+
+.marginStart {
+  display: $flex;
+  margin-left: 106px;
+}
+
+.breadcrumbItems {
+  color: $white-color;
+  margin: $start 1px;
+  cursor: pointer;
+  @include normalTextSize();
+}

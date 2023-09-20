@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Name Of Product",
+    "images": [
+      { "id": 11, "src": "Product2", "alt": "Product2" },
+      { "id": 22, "src": "Product12", "alt": "Product12" },
+      { "id": 33, "src": "Product13", "alt": "Product13" },
+      { "id": 44, "src": "Product14", "alt": "Product14" }
+    ],
+    "code": 10688,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id nisi faucibus vitae odio. Amet mauris convallis amet, id sed.",
+    "rate": "Card5stars",
+    "price": "300",
+    "oldPrice": "3560",
+    "sizes": [
+      { "id": 12, "title": "2*3 M", "type": "bordered3" },
+      { "id": 21, "title": "4*4 M", "type": "bordered2" },
+      { "id": 32, "title": "3*4 M", "type": "bordered2" }
+    ],
+    "colors": [
+      {
+        "id": 147,
+        "title": "<div class='customBtnOuterCircle'><div class='customBtnInnerCircle' /></div>",
+        "type": "custom"
+      },
+      { "id": 247, "title": "", "type": "roundedBlack" },
+      { "id": 347, "title": "", "type": "roundedBlue" },
+      { "id": 447, "title": "", "type": "roundedYellow" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Name Of Product",
+    "images": [
+      { "id": 111, "src": "Product3", "alt": "Product3" },
+      { "id": 222, "src": "Product12", "alt": "Product12" },
+      { "id": 333, "src": "Product13", "alt": "Product13" },
+      { "id": 444, "src": "Product14", "alt": "Product14" }
+    ],
+    "code": 10689,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id nisi faucibus vitae odio. Amet mauris convallis amet, id sed.",
+    "rate": "Card3stars",
+    "price": "350",
+    "oldPrice": "3560",
+    "sizes": [
+      { "id": 13, "title": "2*3 M", "type": "bordered3" },
+      { "id": 23, "title": "4*4 M", "type": "bordered2" },
+      { "id": 32, "title": "3*4 M", "type": "bordered2" }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "title": "<div class='customBtnOuterCircle'><div class='customBtnInnerCircle' /></div>",
+        "type": "custom"
+      },
+      { "id": 258, "title": "", "type": "roundedBlack" },
+      { "id": 358, "title": "", "type": "roundedBlue" },
+      { "id": 458, "title": "", "type": "roundedYellow" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Name Of Product",
+    "images": [
+      { "id": 1111, "src": "Product4", "alt": "Product4" },
+      { "id": 2222, "src": "Product12", "alt": "Product12" },
+      { "id": 3333, "src": "Product13", "alt": "Product13" },
+      { "id": 4444, "src": "Product14", "alt": "Product14" }
+    ],
+    "code": 10690,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id nisi faucibus vitae odio. Amet mauris convallis amet, id sed.",
+    "rate": "Card4stars",
+    "price": "240",
+    "oldPrice": "3560",
+    "sizes": [
+      { "id": 112, "title": "2*3 M", "type": "bordered3" },
+      { "id": 221, "title": "4*4 M", "type": "bordered2" },
+      { "id": 332, "title": "3*4 M", "type": "bordered2" }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "title": "<div class='customBtnOuterCircle'><div class='customBtnInnerCircle' /></div>",
+        "type": "custom"
+      },
+      { "id": 269, "title": "", "type": "roundedBlack" },
+      { "id": 369, "title": "", "type": "roundedBlue" },
+      { "id": 469, "title": "", "type": "roundedYellow" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Name Of Product",
+    "images": [
+      { "id": 11111, "src": "Product5", "alt": "Product5" },
+      { "id": 22222, "src": "Product12", "alt": "Product12" },
+      { "id": 33333, "src": "Product13", "alt": "Product13" },
+      { "id": 44444, "src": "Product14", "alt": "Product14" }
+    ],
+    "code": 10691,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id nisi faucibus vitae odio. Amet mauris convallis amet, id sed.",
+    "rate": "Card5stars",
+    "price": "540",
+    "oldPrice": "3560",
+    "sizes": [
+      { "id": 121, "title": "2*3 M", "type": "bordered3" },
+      { "id": 212, "title": "4*4 M", "type": "bordered2" },
+      { "id": 323, "title": "3*4 M", "type": "bordered2" }
+    ],
+    "colors": [
+      {
+        "id": 1987,
+        "title": "<div class='customBtnOuterCircle'><div class='customBtnInnerCircle' /></div>",
+        "type": "custom"
+      },
+      { "id": 2987, "title": "", "type": "roundedBlack" },
+      { "id": 3987, "title": "", "type": "roundedBlue" },
+      { "id": 4987, "title": "", "type": "roundedYellow" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Name Of Product",
+    "images": [
+      { "id": 111111, "src": "Product1", "alt": "Product1" },
+      { "id": 222222, "src": "Product12", "alt": "Product12" },
+      { "id": 333333, "src": "Product13", "alt": "Product13" },
+      { "id": 444444, "src": "Product14", "alt": "Product14" }
+    ],
+    "code": 10692,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id nisi faucibus vitae odio. Amet mauris convallis amet, id sed.",
+    "rate": "Card5stars",
+    "price": "3000",
+    "oldPrice": "3560",
+    "sizes": [
+      { "id": 1234, "title": "2*3 M", "type": "bordered3" },
+      { "id": 2341, "title": "4*4 M", "type": "bordered2" },
+      { "id": 3421, "title": "3*4 M", "type": "bordered2" }
+    ],
+    "colors": [
+      {
+        "id": 1789,
+        "title": "<div class='customBtnOuterCircle'><div class='customBtnInnerCircle' /></div>",
+        "type": "custom"
+      },
+      { "id": 2789, "title": "", "type": "roundedBlack" },
+      { "id": 3789, "title": "", "type": "roundedBlue" },
+      { "id": 4789, "title": "", "type": "roundedYellow" }
+    ]
+  }
+]

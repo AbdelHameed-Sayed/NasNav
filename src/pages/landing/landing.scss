@@ -1,0 +1,30 @@
+@import '../../utils/Variables.scss';
+
+$border-radius: 20px;
+
+.container {
+  @include centeredFlex();
+  flex-direction: column;
+  height: 100vh;
+}
+
+.loader-container {
+  width: $full;
+  max-width: 600px;
+  height: 28px;
+  margin-top: 88px;
+  background-color: $lightGray3-color;
+  border-radius: $border-radius;
+}
+
+.loader {
+  height: $full;
+  background: linear-gradient(
+    180deg,
+    $loader1-color 10%,
+    $loader2-color 66%,
+    $loader3-color $full
+  );
+  border-radius: $border-radius;
+  transition: width 1s linear;
+}

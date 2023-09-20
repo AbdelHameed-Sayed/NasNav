@@ -1,0 +1,136 @@
+@import '../../utils/Variables.scss';
+
+.customizeProductContainer {
+  width: 453px;
+}
+.customizeProductTitleContainer {
+  width: 453px;
+  @include itemsCenterFlex();
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.degPng {
+  width: 37.22px;
+  height: 23.28px;
+}
+
+.header {
+  font-size: 23px;
+  line-height: 34.53px;
+  font-weight: 500;
+  margin: $start;
+}
+
+.price {
+  color: $secondary-color;
+  font-size: 23px;
+  line-height: 23.02px;
+  font-weight: 600;
+  margin: 19px 14px 19px $start;
+}
+
+.oldPrice {
+  color: $lightGray1-color;
+  font-size: 19px;
+  line-height: 19.18px;
+  font-weight: 400;
+  text-decoration: line-through;
+  margin-left: 7.47px;
+}
+
+.description {
+  text-transform: lowercase;
+  font-size: 17.26px;
+  line-height: 20.8px;
+  color: $lightBlack3-color;
+  word-wrap: break-word;
+  margin-bottom: 12px;
+}
+
+.size,
+.color {
+  color: $secondary-color;
+  font-size: 21px;
+  line-height: 25.72px;
+  font-weight: 500;
+}
+
+.size {
+  margin: $start;
+  margin-bottom: 6.61px;
+}
+
+.color {
+  margin: 18px $start 12px;
+}
+
+.colorBtnsContainer {
+  @include itemsCenterFlex();
+  margin-bottom: 46.51px;
+}
+
+.customBtnOuterCircle {
+  @include relativePosition();
+  width: 35.91px;
+  height: 35.91px;
+  border-radius: $full;
+  border: 1.44px $secondary-color solid;
+  margin-right: 10.77px;
+}
+
+.customBtnInnerCircle {
+  @include absolutePosition();
+  width: 28.73px;
+  height: 28.73px;
+  background: white;
+  border-radius: 50%;
+  top: 49%;
+  left: 49%;
+  transform: translate(-49%, -49%);
+  border: 0.72px $primary-color solid;
+}
+
+.incrementDecrementContainer {
+  font-size: 22.67px;
+  font-weight: 500;
+  width: 153px;
+  height: 50px;
+  border-radius: 11.51px;
+  border: 0.71px $lightGray3-color solid;
+  @include itemsCenterFlex();
+  justify-content: space-around;
+}
+
+.buyContainer {
+  display: $flex;
+  column-gap: 14px;
+  margin-bottom: 22px;
+}
+
+.actionSvg {
+  background-color: $lightGray6-color;
+  width: 47.23px;
+  height: 45.7px;
+  border-radius: 75.65px;
+  @include itemsCenterFlex();
+  justify-content: space-around;
+  margin-right: 10.27px;
+}
+
+.actionSvgContainer {
+  display: $flex;
+  flex-direction: row;
+  margin-right: 37.56px;
+}
+
+.noMargin {
+  margin: $start;
+}
+
+.actionTilte {
+  font-size: 13.62px;
+  text-transform: lowercase;
+  font-weight: 400;
+  color: $lightGray2-color;
+}

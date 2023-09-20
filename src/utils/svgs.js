@@ -1,0 +1,17 @@
+export { ReactComponent as Logo } from './images/logo.svg';
+export { ReactComponent as Hamburger } from './images/hamburger.svg';
+export { ReactComponent as Search } from './images/search.svg';
+export { ReactComponent as Bag } from './images/bag.svg';
+export { ReactComponent as Profile } from './images/pprofile.svg';
+export { ReactComponent as Stars } from './images/stars.svg';
+export { ReactComponent as Minus } from './images/minus.svg';
+export { ReactComponent as Plus } from './images/plus.svg';
+export { ReactComponent as Heart } from './images/heart.svg';
+export { ReactComponent as Cam } from './images/cam.svg';
+export { ReactComponent as Share } from './images/share.svg';
+export { ReactComponent as Card3stars } from './images/card3stars.svg';
+export { ReactComponent as Card4stars } from './images/card4stars.svg';
+export { ReactComponent as Card5stars } from './images/card5stars.svg';
+export { ReactComponent as Heart2 } from './images/heart2.svg';
+export { ReactComponent as ClearCircle } from './images/clearCircle.svg';
+export { ReactComponent as Trash } from './images/trash.svg';

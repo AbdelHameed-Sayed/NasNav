@@ -1,0 +1,22 @@
+@import '../../utils/Variables.scss';
+
+.title {
+  text-transform: capitalize;
+  margin-left: 1px;
+  margin-bottom: 25px;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 500;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(257.68px, 0));
+  gap: 19.38px;
+  grid-auto-flow: column;
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  padding-right: 1px;
+}

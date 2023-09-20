@@ -1,0 +1,55 @@
+@import '../../utils/Variables.scss';
+
+.thumbnailContainer {
+  display: $flex;
+  column-gap: 13px;
+}
+
+.smallImageInnerContainer,
+.bigImageContainer {
+  @include relativePosition();
+  @include centeredFlex();
+}
+
+.smallImageInnerContainer {
+  width: 110px;
+  height: 121px;
+  border-radius: 14.3px;
+  border: 0.89px $lightGray3-color solid;
+  margin-bottom: 17px;
+  cursor: pointer;
+}
+
+.smallImage {
+  @include absolutePosition();
+  max-width: 87.34px;
+  max-height: 105.18px;
+}
+
+.bigImageContainer {
+  width: 368px;
+  height: 536px;
+  border-radius: 16.47px;
+  border: 0.82px $lightGray3-color solid;
+}
+
+.bigImage {
+  @include absolutePosition();
+  max-width: 299px;
+  max-height: 477px;
+}
+
+.discount {
+  @include absolutePosition();
+  width: 99.71px;
+  height: 41.93px;
+  top: 40.22px;
+  left: $start;
+  background-color: $secondary-color;
+  color: $white-color;
+  @include centeredFlex();
+}
+
+.noMargin {
+  margin: $start;
+}

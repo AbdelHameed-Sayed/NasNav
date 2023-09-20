@@ -1,0 +1,143 @@
+@import '../../utils/Variables.scss';
+
+.cartContainer {
+  @include absolutePosition();
+  width: 400px;
+  max-height: 610px;
+  border-radius: 21.22px;
+  background-color: $white-color;
+  z-index: 999999;
+  right: 28px;
+  top: 60px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.upperArrow {
+  width: $start;
+  height: $start;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid $white-color;
+  @include absolutePosition();
+  top: -13px;
+  right: 134px;
+}
+
+.cartHeaderContainer {
+  @include itemsCenterFlex();
+  justify-content: space-between;
+  margin: 30px 27.57px 29px 29px;
+}
+
+.clearCircle,
+.trash {
+  cursor: pointer;
+}
+
+.trash:active {
+  opacity: 0.5;
+}
+
+.productNumberInsideCart {
+  margin: $start;
+  font-size: 18px;
+  color: $primary-color;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.cartProductDetailsOuterContainer {
+  margin: $start 38px 16px 29px;
+}
+
+.cartProductDetails {
+  @include itemsCenterFlex();
+  flex-direction: row;
+  column-gap: 17px;
+  justify-content: space-between;
+}
+
+.cartProductDetailsInnerContainer {
+  display: $flex;
+  flex-direction: row;
+  column-gap: 17px;
+}
+
+.cartDivider {
+  width: $full;
+  height: $start;
+  border: 1px solid $lightGray8-color;
+  margin-top: 16px;
+}
+
+.cartImage {
+  width: 85px;
+  height: 98px;
+  border-radius: 9px;
+}
+
+.productTitle {
+  text-transform: uppercase;
+  color: $lightBlack4-color;
+  @include normalTextSize();
+  font-weight: 500;
+  margin: $start;
+  margin-top: 6px;
+  margin-bottom: 7px;
+}
+
+.productSize,
+.productColor {
+  color: $lightBlack3-color;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.87px;
+  margin: $start;
+}
+
+.productSize {
+  margin-bottom: 3px;
+}
+
+.productColor {
+  margin-bottom: 18px;
+}
+
+.cartProductPrice {
+  color: $secondary-color;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  margin: $start;
+}
+
+.cartModalPriceContainer {
+  margin: 39px 38px 12px 38px;
+  @include itemsCenterFlex();
+  justify-content: space-between;
+}
+
+.cartSubtotalTitle,
+.cartSubtotalPrice {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 27px;
+}
+
+.cartSubtotalTitle {
+  color: $lightBlack6-color;
+}
+
+.cartSubtotalPrice {
+  color: $secondary-color;
+}
+
+.cartButtonContainer {
+  text-align: center;
+  margin-bottom: 24px;
+}

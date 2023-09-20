@@ -1,0 +1,95 @@
+@import '../../utils/Variables.scss';
+
+.cardContainer {
+  @include relativePosition();
+  width: 257.69px;
+  height: 465px;
+  border: 0.97px $lightGray3-color solid;
+  border-radius: 15.5px;
+  cursor: pointer;
+}
+
+.cardImage {
+  @include absolutePosition();
+  width: 191.8px;
+  height: 226.68px;
+  left: 32.94px;
+  top: 24.22px;
+}
+
+.innerDegContainer {
+  width: 54.25px;
+  height: 54.25px;
+  border-radius: $full;
+  background-color: $lightGray7-color;
+  @include centeredFlex();
+}
+
+.deg {
+  width: 33.93px;
+  height: 20.94px;
+  @include absolutePosition();
+}
+
+.outerDegContainer {
+  @include absolutePosition();
+  top: 15.5px;
+  right: 16.47px;
+}
+
+.lowerCard {
+  margin-left: 20.34px;
+  margin-top: 276.09px;
+}
+
+.lowerCardCode {
+  color: $lightBlack2-color;
+  font-size: 15.5px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-left: 0.97px;
+  margin-bottom: 9.94px;
+}
+
+.lowerCardDescription {
+  max-height: 34px;
+  max-width: 220.875px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 17px;
+  font-size: 15.5px;
+  color: $lightBlack5-color;
+  text-transform: lowercase;
+  word-wrap: break-word;
+  font-weight: 400;
+  margin: $start;
+  margin-left: 0.97px;
+  padding: $start;
+}
+
+.lowerCardPrice {
+  color: $secondary-color;
+  font-size: 17.44px;
+  font-weight: 500;
+  line-height: 17.44px;
+  word-wrap: break-word;
+  margin: 9.69px $start 14.97px $start;
+}
+
+.lowerCardBtnsContainer {
+  display: $flex;
+  flex-direction: row;
+}
+
+.heartContainer {
+  width: 54.25px;
+  height: 39.71px;
+  border-radius: 5.81px;
+  background-color: $lightGray7-color;
+  @include centeredFlex();
+  margin-left: 5.81px;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+@import '../../utils/Variables.scss';
+
+.UpperProductContainer {
+  margin: $start 162px 109px 162px;
+  @include relativePosition();
+  display: $flex;
+  column-gap: 100px;
+}
+
+.LowerProductContainer {
+  width: 1090px;
+  margin: $start 136.12px 55px 141px;
+}

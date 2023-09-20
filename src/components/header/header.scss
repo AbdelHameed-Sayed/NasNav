@@ -1,0 +1,53 @@
+@import '../../utils/Variables.scss';
+
+.outerHeaderContainer,
+.relative {
+  @include relativePosition();
+}
+
+.headerContainer {
+  @include itemsCenterFlex();
+  flex-direction: row;
+  margin: 24px 80px;
+}
+
+.logo {
+  margin-left: 18px;
+  margin-right: 37px;
+  max-width: 178px;
+  height: fit-content;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.svgButtonsContainer {
+  @include absolutePosition();
+  right: $start;
+  margin: $start 64px $start 217px;
+}
+
+.counter {
+  @include absolutePosition();
+  width: 19px;
+  height: 19px;
+  background: $secondary-color;
+  border-radius: $full;
+  top: -4px;
+  left: 26px;
+  color: $white-color;
+  @include centeredFlex();
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.backdrop {
+  position: $fixed;
+  top: $start;
+  left: $start;
+  width: $full;
+  height: $full;
+  background-color: $backdrop-color;
+  z-index: 100;
+}

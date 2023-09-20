@@ -1,0 +1,55 @@
+$primary-color: #000000;
+$secondary-color: #b93c3c;
+$loader1-color: #874a4a;
+$loader2-color: #a33333;
+$loader3-color: #f33737;
+$blue-color: #0052d3;
+$yellow-color: #fcbc04;
+$backdrop-color: rgba(0, 0, 0, 0.42);
+$lightBlack1-color: #0000006b;
+$lightBlack2-color: #070707;
+$lightBlack3-color: #07070799;
+$lightBlack4-color: #444444;
+$lightBlack5-color: #787878;
+$lightBlack6-color: #7e7e7e;
+$lightGray1-color: #818181;
+$lightGray2-color: #707070;
+$lightGray3-color: #d9d9d9;
+$lightGray4-color: #e0e0e0;
+$lightGray5-color: #c7c7c5;
+$lightGray6-color: #fafafa;
+$lightGray7-color: #f5f5f5;
+$lightGray8-color: #eaeaea;
+$white-color: #ffffff;
+
+$absolute: absolute;
+$relative: relative;
+$fixed: fixed;
+$flex: flex;
+
+$full: 100%;
+$start: 0;
+
+@mixin centeredFlex {
+  display: $flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin itemsCenterFlex {
+  display: $flex;
+  align-items: center;
+}
+
+@mixin absolutePosition {
+  position: $absolute;
+}
+
+@mixin relativePosition {
+  position: $relative;
+}
+
+@mixin normalTextSize {
+  font-size: 16px;
+  line-height: 16px;
+}
